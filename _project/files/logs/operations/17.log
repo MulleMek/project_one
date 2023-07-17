@@ -1,0 +1,18 @@
+21.04.2023 15:15:17
+
+Debug Data, Operation CASH: 
+{"id":"66","active":true,"name":"Антон","lastName":"Куликов","secondName":"","email":"newsteach@gmail.com","mobilePhone":"+79372825893","workPhone":"89372825893","userType":"employee","services":{"13418":{"id":"13418","name":"Посёлок Гринфилд. Ул центральная д. 267","price":1,"date":"13.12.2022","count":1},"134189":{"id":"134189","name":"Посёлок Гринфилд. Ул центральная д. 267","price":1,"date":"13.12.2022","count":1},"1341800000":{"id":"1341800000","name":"Посёлок Гринфилд. Ул центральная д. 267","price":1,"date":"13.12.2022","count":1}}}
+ --- 
+<----- CashcodeSM starting in fake mode
+----------
+START DONE, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+----------
+EXIT, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+
+21.04.2023 15:16:04

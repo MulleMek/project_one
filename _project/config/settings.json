@@ -1,0 +1,333 @@
+{
+    "check": {
+        "name": "Настройки чека",
+        "icon": "keyboard",
+        "description": "Дополнительные поля печатающиеся на чеке",
+        "active": false,
+        "data": {
+            "SellerName": {
+                "header": "Наименование орг.",
+                "description": "Шапка чека",
+                "type": "string",
+                "active": true
+            },
+			"SellerSecondName": {
+                "header": "Наименование орг (полное, ООО / ИП)",
+                "description": "Подвал чека",
+                "type": "string",
+                "active": true
+            },			
+            "SellerFullName": {
+                "header": "Дополнительное название",
+                "description": "Шапка чека",
+                "type": "string",
+                "active": true
+            },
+            "SellerAddress": {
+                "header": "Адрес",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "SellerINN": {
+                "header": "ИНН",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "SellerOGRNIP": {
+                "header": "ОГРНИП",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+			"SellerWorkHours": {
+                "header": "Часы работы",
+                "description": "Шапка чека",
+                "type": "string",
+                "active": true
+            },
+            "SellerPhone": {
+                "header": "Телефон",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "SellerEmail": {
+                "header": "Эл. почта",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "SellerSite": {
+                "header": "Сайт",
+                "description": "",
+                "type": "string",
+                "active": true
+            },	
+            "SellerInstagram": {
+                "header": "ХешТег",
+                "description": "",
+                "type": "string",
+                "active": true
+            }
+        }
+    },
+    "bitrix": {
+        "name": "Bitrix",
+        "icon": "globe",
+        "description": "",
+        "active": true,
+        "data": {
+            "remote_url": {
+                "header": "Адрес API",
+                "description": ".../rest/66/..../",
+                "type": "string",
+                "active": true
+            },
+            "remote_token": {
+                "header": "Токен",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "remote_filter_param": {
+                "header": "STAGE фильтр",
+                "description": "C26:PREPARATION",
+                "type": "string",
+                "active": true
+            },
+            "remote_solve_param": {
+                "header": "STAGE после оплаты",
+                "description": "C22:UC_FN6W36",
+                "type": "string",
+                "active": true
+            }
+        }
+    },
+    "no": {
+        "name": "Другие настройки",
+        "icon": "globe",
+        "description": "",
+        "active": false,
+        "data": {
+            "auth_session_update": {
+                "header": "Время обновления сессии <span class='tagging'>минуты</span>",
+                "description": "Время обновления сессии пользователя. Определяет время по истечению которого данные авторизовавшегося пользователя будут обновленны.",
+                "type": "number",
+                "active": false
+            },
+            "time_save_logs": {
+                "header": "Время жизни логов <span class='tagging'>Дни</span>",
+                "description": "Время жизни логов по пути <span class='info_path'><путь до проекта>/_project/Logger/*</span><br>Если по такому пути не существует папки, она создастся при первом вызове логгера",
+                "type": "number",
+                "active": false
+            },
+            "terminal_id": {
+                "header": "<strong>Номер терминала</strong>",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "TerminalAddress": {
+                "header": "Адрес терминала",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "TerminalMesto": {
+                "header": "Место расположения терминала",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "ShowOffert": {
+                "header": "<strong>Включить\\Выключить</strong> отображение ссылки на договор оферты",
+                "description": "",
+                "type": "switch",
+                "active": false
+            }
+        }
+    },
+    "devices": {
+        "name": "Дополнительно",
+        "icon": "envelope",
+        "description": "",
+        "active": true,
+        "data": {
+            "cashcodeSMNoticeLevel": {
+                "header": "<strong>CashcodeSM</strong> уровень при котором отправляется уведомление о необходимости инкасирования данного устройства <span class='tagging'>купюры</span>",
+                "description": "0 - Отключить",
+                "type": "number",
+                "active": false
+            },
+            "cashcodeSMDisableLevel": {
+                "header": "<strong>CashcodeSM</strong> уровень при достижении которого терминал переходит в нерабочий режим<span class='tagging'>купюры</span>",
+                "description": "0 - Отключить",
+                "type": "number",
+                "active": false
+            },
+            "LCDMNoticeLevel": {
+                "header": "<strong>LCDM200</strong> уровень касеты с минимальным уровнем купюр при котором отправляем уведомление <span class='tagging'>купюры</span>",
+                "description": "0 - Отключить",
+                "type": "number",
+                "active": false
+            },
+            "terminal_id": {
+                "header": "<strong>Номер терминала</strong>",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "TerminalAddress": {
+                "header": "Адрес терминала",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "TerminalMesto": {
+                "header": "Место расположения терминала",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "KKTSerial": {
+                "header": "Заводской номер ККТ",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "KKTReg": {
+                "header": "Регистрационный номер ККТ",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "SiteFNS": {
+                "header": "Сайт ФНС",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "OFDName": {
+                "header": "Наименование ОФД",
+                "description": "",
+                "type": "string",
+                "active": false
+            },		
+            "SNOName": {
+                "header": "Наименование Системы НалогоОбложения",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "PayingАgent": {
+                "header": "Платёжный агент",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "Recipient": {
+                "header": "Получатель",
+                "description": "",
+                "type": "string",
+                "active": false
+            },
+            "Appointment": {
+                "header": "Назначение платежа",
+                "description": "",
+                "type": "string",
+                "active": false
+            }
+        }
+    },
+    "ad": {
+        "name": "Настройки показа рекламы на главной странице",
+        "icon": "image",
+        "description": "Настройки отображения рекламы на главной странице киоска. Определяют характер показа рекламы и промо роликов в период бездействия терминала<br>Если не будет файлов функция считается Выключенной<br>Загрузить контент можно <a href='/admin/ad/'>здесь</a>",
+        "active": false,
+        "data": {
+            "ad_active": {
+                "header": "<strong>Включить\\Выключить</strong> показ рекламы в режиме ожидания",
+                "description": "Если включенно то будет отображатся реклама<br>Если выключенно то ничего происходить не будет",
+                "type": "switch",
+                "active": true
+            },
+            "ad_active_video": {
+                "header": "<strong>Включить\\Выключить</strong> использование видео",
+                "description": "",
+                "type": "switch",
+                "active": true
+            },
+            "ad_active_img": {
+                "header": "<strong>Включить\\Выключить</strong> использование изображений",
+                "description": "",
+                "type": "switch",
+                "active": true
+            },
+            "ad_timeout": {
+                "header": "<strong>Время</strong> бездействия, после которого запускается показ слайдов <span class='tagging'>секунды</span>",
+                "description": "",
+                "type": "number",
+                "active": true
+            },
+            "ad_img_time": {
+                "header": "<strong>Время</strong> показа одного слайда изображения <span class='tagging'>секунды</span>",
+                "description": "",
+                "type": "number",
+                "active": true
+            }
+        }
+    },
+    "nanokassa": {
+        "name": "Настройки Nanokassa",
+        "icon": "keyboard",
+        "description": "Конфигурация веб кассы - авторизация, параметры места установки и прочее",
+        "active": false,
+        "data": {
+            "nanokassa_testmode": {
+                "header": "<strong>Включить\\Выключить</strong> тестовый режим работы",
+                "description": "В случае если Включен, то все запросы к сервису будут отправляться с пометкой как тестовые",
+                "type": "switch",
+                "active": true
+            },
+            "nanokassa_kassaid": {
+                "header": "Kassaid",
+                "description": "ID кассы, необходимый для авторизации",
+                "type": "string",
+                "active": true
+            },
+            "nanokassa_kassatoken": {
+                "header": "Kassatoken",
+                "description": "Токен кассы, необходимый для авторизации",
+                "type": "string",
+                "active": true
+            },
+
+            "nanokassa_vend_address": {
+                "header": "Адрес расположения",
+                "description": "Адрес продажи который будет отмечен в чеке",
+                "type": "string",
+                "active": true
+            },
+            "nanokassa_vend_mesto": {
+                "header": "Место расположения",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "nanokassa_vend_num_avtovat": {
+                "header": "Номер автомата",
+                "description": "",
+                "type": "string",
+                "active": true
+            },
+            "nanokassa_rezhim_nalog": {
+                "header": "Номер режима налогообложения",
+                "description": "0 – Общая, 1 - Упрощенная доход, 2 - Упрощенная доход минус расход, 5 - Патент",
+                "type": "string",
+                "active": true
+            }
+        }
+    }
+}

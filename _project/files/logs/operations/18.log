@@ -1,0 +1,18 @@
+04.05.2023 11:09:11
+
+Debug Data, Operation CASH: 
+{"id":"9486","active":true,"name":"Тест","lastName":"Монтажник","secondName":"","email":"geometriya-group@yandex.ru","mobilePhone":"89019019011","workPhone":"89019019011","userType":"employee","services":{"16874":{"id":"16874","name":"САМ СЕРГЕЙ САМОВЫВОЗ ДМИТРИЯ УЛЬЯНОВА|;|8266","price":1190,"date":"06.04.2023","count":1},"18960":{"id":"18960","name":"17.04 Виктор сам  Дмитрия Ульянова|;|10274","price":2380,"date":"14.04.2023","count":1},"20090":{"id":"20090","name":"21.04САМ Самовывоз  Дмитрия Ульянова 7Б |;|11356","price":1380,"date":"20.04.2023","count":1},"21738":{"id":"21738","name":"26.04 Иван Борода Дилер Ульянова 7Б|;|12924 Физ.лицо","price":5649,"date":"26.04.2023","count":1},"22054":{"id":"22054","name":"САМ ВАЛЕРИЙ САМОВЫВОЗ ДМИТРИЯ УЛЬЯНОВА 28.04|;|13224 Физ.лицо","price":1190,"date":"27.04.2023","count":1}}}
+ --- 
+<----- CashcodeSM starting in fake mode
+----------
+START DONE, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+----------
+EXIT, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+
+04.05.2023 11:12:03

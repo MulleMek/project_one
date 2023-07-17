@@ -1,0 +1,138 @@
+.ad_popup {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 999999999;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+}
+.ad_popup .relative {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ad_popup .relative .fill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(34, 34, 34, 0.2);
+  top: 0;
+  left: 0;
+}
+.ad_popup video {
+  height: 100%;
+  width: auto;
+  opacity: 0.95;
+}
+.ad_popup .label {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ad_popup .label .title {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: 7vw;
+}
+.ad_popup .label p {
+  position: relative;
+  color: white;
+  font-size: 3vw;
+}
+.ad_popup .label hr {
+  width: 200px;
+  height: 5px;
+  background: white;
+  margin: 80px 0;
+}
+.ad_popup .label .tap {
+  width: 220px;
+  height: 220px;
+  background: #d25d36;
+  display: flex;
+  border-radius: 220px;
+  margin-top: 80px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.ad_popup .label .tap:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 2px solid #d25d36;
+  background: transparent;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ad_popup .label .tap img {
+  max-width: 60%;
+}
+.ad_popup .label .tap:active {
+  background: #f47f58;
+}
+.ad_popup .label .tap:active:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 2px solid #f47f58;
+  background: transparent;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+}
+.ad_popup .label .logo {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 200px;
+  height: 60px;
+}
+.ad_popup .label .logo img {
+  max-width: 100%;
+}
+.ad_popup div.img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  /* background-image: url("/_project/files/ad/img/1592128.jpg"); */
+  transition: all 0.5s;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ---- */
+.ad-content {
+  width: 100%;
+  height: 100%;
+}
+.ad-notice {
+  position: absolute;
+  /*top: 550px;*/
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #00649bf1;
+}

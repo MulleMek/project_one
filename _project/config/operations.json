@@ -1,0 +1,41 @@
+{
+	"keys": [ "id", "name", "type", "inserted", "datetime", "sync", "sync_remote", "fisc", "printed", "no_troubles", "approved", "org_id", "user_phone" ],
+	"operator_keys": {
+		"id": "id",
+		"Время": "datetime",
+		"Тип платежа": "type",
+		"Стоимость": "price",
+		"Внесено": "inserted",
+		"Тел": "user_phone",
+		"1с": "sync"
+	},
+	"reports": {
+		"id": "id",
+		"datetime": "время",
+		"type": "тип операции",
+		"price": "стоимость",
+		"inserted": "внесено",
+		"client_id": "user ID",
+		"user_phone": "user Phone",
+		"sync": "девпарк",
+		"goods":"услуги"
+	},
+	"emailreport": {
+		"id": "id",
+		"datetime": "время",
+		"type": "тип операции",
+		"price": "стоимость",
+		"inserted": "внесено",
+		"dispensed": "выдано",
+		"name": "услуга"
+	},
+	"reversal": {
+		"id": "id",
+		"datetime": "время",
+		"price": "Стоимость услуги",
+		"commission": "Комиссия",
+		"inserted": "внесено",
+		"dispensed": "выдано",
+		"user": "Пользователь"
+	}
+}

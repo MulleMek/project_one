@@ -1,0 +1,24 @@
+{
+   "keys": ["id", "type", "price", "inserted", "dispensed", "fisc", "printed", "datetime", "sync", "sync_remote", "no_troubles", "approved", "data", "org_id", "user_phone"],
+   
+   "defaults": {
+
+   },
+   
+   "types": {
+      "data": "string",
+      "price": "decimal",
+      "inserted": "decimal",
+      "dispensed": "decimal",
+      "fisc": "int",
+      "printed": "int",
+      "sync": "int",
+      "sync_remote": "int",
+      "no_troubles": "int",
+      "approved": "int",
+      "org_id": "int",
+      "user_phone": "string"
+   },
+
+   "required": []
+}

@@ -1,0 +1,52 @@
+{
+	"type_sync": {
+		"settings": [
+			"lang",
+			"lang_kiosk",
+			"service_clear_image",
+			"delimiter_csv_import",
+			"services_acept_input_image",
+			"services_max_size_image",
+			"ShowOffert",
+			"AscPersonalData",
+			"cart",
+			"Emailreports",
+			"Agreement",
+			"Appointment",
+			"PrintFooter",
+			"PrintHeader",
+			"Recipient",
+			"PayingАgent",
+			"TerminalAddress"
+		],
+		"emails": true,
+		"users": true,
+		"images": true,
+		"commission": true,
+		"categories": true,
+		"services": true,
+		"accounts": true,
+		"organizations": true,
+		"groups": true,
+		"related": true,
+		"modifiers": true,
+		"modifiers_group": true,
+
+		"configs": [
+			"server",
+			"operations",
+			"operation_status",
+			"languages",
+			"first_run",
+			"settings"
+		],
+
+		"ad": {
+			"banner": true,
+			"img": true,
+			"video": true
+		},
+
+		"image_org": true
+	}
+}

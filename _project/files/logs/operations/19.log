@@ -1,0 +1,18 @@
+04.05.2023 11:12:34
+
+Debug Data, Operation CASH: 
+{"id":"9486","active":true,"name":"Тест","lastName":"Монтажник","secondName":"","email":"geometriya-group@yandex.ru","mobilePhone":"89019019011","workPhone":"89019019011","userType":"employee","services":{"21718":{"id":"21718","name":"Виктор дил  Физ.лицо","price":1280,"date":"26.04.2023","count":1}}}
+ --- 
+<----- CashcodeSM starting in fake mode
+----------
+START DONE, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+----------
+EXIT, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+ CashcodeSM {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":4,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+
+04.05.2023 11:14:19

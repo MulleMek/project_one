@@ -1,0 +1,9 @@
+{
+	"folders_to_create": [ 
+		"files/custom_log",
+		"files/image_services",
+		"files/ad",
+		"files/ad/img",
+		"files/ad/video"
+	]
+}

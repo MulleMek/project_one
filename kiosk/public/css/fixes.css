@@ -1,0 +1,968 @@
+/* Fixes */
+.popup-email {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.popup-email-form {
+
+	width: 1280px;
+	height: 1024px;
+
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background: whitesmoke;
+	background: -webkit-radial-gradient(center, circle cover, whitesmoke,  #FFFFFFE3);
+
+	overflow: hidden;
+
+/*	border-color: red;
+	border-style: dashed;*/
+	
+}
+
+.popup-email main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.popup-email footer {
+  width: 100%;
+  height: 180px;
+
+  margin-bottom: 0px;
+  padding-top: 50px;
+ 
+}
+.popup-email .popup-email-form .number {
+  background: #00649b;
+  width: 85px;
+  height: 85px;
+  margin: 0px 2.5px 5px 2.5px;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.pin-pad-wrap .pin-pad .number.icon {
+  font-size: 35px;
+}
+
+.popup-email .popup-email-form .k-number {
+  background: #00649b;
+  width: 75px;
+  height: 65px;
+  margin: 0px 2.5px 5px 2.5px;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.pin-pad-wrap .pin-pad .k-number.icon {
+  font-size: 35px;
+}
+.popup-email .popup-email-form .k-btn {
+  background: #00649b;
+  width: 75px;
+  height: 75px;
+  margin: 0px 2.5px 5px 2.5px;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.pin-pad-wrap .pin-pad .k-btn.icon {
+  font-size: 35px;
+}
+
+.popup-email .popup-email-form .k-btn-holded {
+	background: #ada7a7;
+}
+.keyboard .k-line .k-btn:active,
+.keyboard .k-line .k-btn-2:active,
+.keyboard .k-line .k-space:active,
+.keyboard .k-line .k-number:active {
+  background: #ada7a7;
+}
+
+.keyboard-wrap .k-line .k-btn.k-btn-lang {
+  background-color: #A8A8A8;
+  color: white;
+}
+
+.popup-email .popup-email-form input[type="text"] {
+	height: 85px;
+	border-radius: 10px;
+}
+
+.popup-email .pin-pad-wrap {
+	width: 800px;
+}
+
+.popup-email main {
+	height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/***/
+
+
+
+main {
+  padding-top: 25px;
+}
+main h2 {
+  text-align: center;
+  margin: 20px auto;
+}
+main h3 {
+  text-align: center;
+
+  font-weight: normal;
+  font-size: 26px;
+
+  color: black;
+}
+
+.preloader-wrap {
+  background: #232e42d4;
+  opacity: none;
+}
+
+.popup {
+  background: #232e42d4;
+  opacity: none;
+}
+
+.color-line{
+	height: 100px;
+    background: linear-gradient(-45deg, #6DBFA5, #88C941 );
+	margin: 0 -50px;
+}
+/*.popup .inner {
+  height: 1500px;
+}*/
+.popup .buttons button {
+  background: linear-gradient(-45deg, #2D9CDB, #42D0C5 );
+  padding: 20px 30px;
+  border-radius: 15px;
+  
+}
+
+.preloader-wrap .preloader-notice {
+  width: 100%;
+  height: 100%;
+  padding-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader-wrap .preloader-notice h3 {
+  font-size: 28px;
+  color: #ffffffba;
+}
+
+body {
+  background-color: white;
+}
+
+
+main div.confirm-wrap {
+  margin-top: 100px;
+  margin: 100px auto 0px;
+  width: 700px;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.confirm-wrap h3,
+div.confirm-wrap p {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+div.confirm-wrap h3 span,
+div.confirm-wrap p span {
+  text-decoration: underline;
+}
+
+
+.main-wrap,
+.popup,
+.preloader-wrap,
+.popup-email-form {
+/*  width: 1080px;
+  height: 1920px;*/
+}
+
+.main-wrap {
+  justify-content: space-between;
+}
+
+header {
+  background-color: #364867;
+  height: 120px;
+  justify-content: center;
+}
+
+header figure {
+  color: white;
+  margin: 0px;
+}
+
+header figure img {
+  max-height: 100px;
+  max-width: 400px;
+}
+
+header figure figcaption {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+
+footer button {
+  /* background-color: #A8A8A8; */
+  background: linear-gradient(-45deg, #2D9CDB, #42D0C5 );
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+
+.big-buttons figure .grad {
+  background-color: #364867;
+}
+.big-buttons .right .grad {
+  background-color: #0f6cb6;
+}
+
+.warning img {
+  max-width: 500px;
+}
+
+
+.payment-cash-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pay-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 350px;
+
+  margin: 50px auto;
+}
+.pay-wrap .line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px 0px;
+}
+.pay-wrap .line p {
+  font-size: 38px;
+  text-align: right;
+}
+.pay-wrap .line p.sm {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pay-wrap .line label {
+  margin-right: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  min-width: 220px;
+}
+.pay-wrap .line.summary {
+  border-top: 3px solid black;
+  margin-top: 40px;
+}
+.pay-wrap .line.summary-after {
+  border-bottom: 3px solid black;
+  margin-bottom: 40px;
+}
+
+
+
+.pin-pad-wrap .pin-pad {
+   display: flex;
+   flex-flow: column nowrap;
+}
+.pin-pad-wrap .pin-pad .k-line {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+}
+
+
+main div.confirm-wrap {
+  width: 990px;
+}
+
+main div.confirm-wrap p.additional {
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.table-container {
+  width: 990px;
+  height: 500px;
+  max-height: 500px;
+  margin: 20px 0;
+}
+.table-wrap {
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  flex: 1 1 auto;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d8d8d8;
+}
+
+.table-wrap table {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.table-wrap table td:nth-child(1){
+  min-width: 350px;
+  max-width: 510px;
+}
+
+.table-wrap table tr:nth-child(even) {
+  background: #8080801F;
+}
+.table-wrap table th {
+  font-size: 1.6em;
+  padding: 6px;
+  min-width: 20px;
+  max-width: 135px;
+}
+.table-wrap table td {
+  font-size: 1.4em;
+  padding: 4px;
+  min-width: 20px;
+  max-width: 135px;
+}
+
+/***/
+.phone-block,
+.register-block {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.code-input.popup .popup-inner {
+  margin-top: 0px;
+}
+.code-input.popup .popup-inner .popup-inner-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.code-input.popup .popup-inner .popup-inner-wrapper .pop-title {
+  padding: 10px;
+  font-size: 1.7em;
+}
+.code-input .popup-inner .phone-block {
+  margin-top: 15px;
+}
+.code-input .popup-inner .phone-block .pin-pad-wrap {
+  width: 500px;
+}
+.code-input .popup-inner .phone-block .pin-pad-wrap .input-center input {
+  width: 80%;
+  height: 50px;
+}
+.code-input.popup {
+  z-index: 700;
+}
+
+
+.phone-block .pin-pad-wrap,
+.register-block .pin-pad-wrap {
+  margin: auto;
+  width: 750px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.phone-block .pin-pad-wrap .input-center,
+.register-block .pin-pad-wrap .input-wide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-block .pin-pad-wrap .input-center input {
+  width: 50%;
+  height: 85px;
+  border: solid 1px #333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+}
+
+
+
+.phone-block .pin-pad-wrap .keybord-wrap {
+  padding: 25px;
+}
+.phone-block .pin-pad-wrap .keybord-wrap .k-line {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.phone-block .pin-pad-wrap .keybord-wrap .k-btn {
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+  border: solid 1px #333;
+  border-radius: 2px;
+
+  color: #fff;
+  background-color: #A8A8A8;
+
+  line-height: 75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-block .k-line .k-btn .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.phone-block .k-line .k-btn:active,
+.keybord-wrap .k-line .k-btn:active,
+.keybord-wrap .k-line .k-btn-2:active,
+.keybord-wrap .k-line .k-space:active,
+.keybord-wrap .k-line .k-number:active {
+  background-color: #b1b7bb !important;
+}
+
+/*******************************************************/
+
+header {
+  background-color: white;
+  justify-content: unset;
+}
+
+header figure {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.clocks__wrap {
+  min-width:354px;
+  max-width:354px;
+  margin-left:20px;
+  margin-right: 20px;
+
+  font-family: Arial;
+  font-size: 28px;
+}
+.clocks__wrap p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.big-buttons-2 {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items:  center;
+}
+
+.big-buttons-2 figure {
+  width: 500px;
+}
+
+.big-buttons-2 figure .grad {
+  height: 400px;
+}
+
+.big-buttons-2 figure .grad svg {
+  width: 350px;
+  height: auto;
+}
+
+/**********************************/
+/* KEYBOARD */
+
+.keyboard-wrap,
+.popup-keyboard-wrap {
+  width: 50%;
+  margin-top: 20px;
+}
+.keyboard-wrap input[type="text"],
+.popup-keyboard-wrap input[type="text"] {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border: 1;
+  background: white;
+  outline: none;
+  height: 70px;
+  padding: 0px 20px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+.keyboard-wrap .k-line,
+.popup-keyboard-wrap .k-line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /*margin-bottom: 10px;*/
+}
+.keyboard-wrap .k-line .k-btn,
+.popup-keyboard-wrap .k-line .k-btn,
+.keyboard-wrap .k-line .k-btn-2,
+.popup-keyboard-wrap .k-line .k-btn-2,
+.keyboard-wrap .k-line .k-space,
+.popup-keyboard-wrap .k-line .k-space,
+.keyboard-wrap .k-line .k-number,
+.popup-keyboard-wrap .k-line .k-number {
+	background: #004A8F;
+    width: 85px;
+    height: 85px;
+    margin: 0px 2.5px 5px 2.5px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+	
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+}
+.keyboard-wrap .k-line .k-btn:active,
+.popup-keyboard-wrap .k-line .k-btn:active,
+.keyboard-wrap .k-line .k-btn-2:active,
+.popup-keyboard-wrap .k-line .k-btn-2:active,
+.keyboard-wrap .k-line .k-space:active,
+.popup-keyboard-wrap .k-line .k-space:active,
+.keyboard-wrap .k-line .k-number:active,
+.popup-keyboard-wrap .k-line .k-number:active {
+   background: #00649b99;
+}
+.keyboard-wrap .k-line .k-space,
+.popup-keyboard-wrap .k-line .k-space {
+  width: 710px;
+}
+.keyboard-wrap .k-line .k-number,
+.popup-keyboard-wrap .k-line .k-number {
+  width: 80px;
+  height: 55px;
+}
+
+/**************************/
+/* FIO POPUP */
+
+.popup.fio-popup .popup-inner {
+  margin-top: -50px;
+}
+
+.popup .fio-scroller {
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+
+  padding: 10px 70px;
+  
+  touch-action: none;
+}
+
+.popup .iScrollIndicator {
+   background: #00649b !important;
+}
+
+.popup .fio-list {
+  /*max-height: 640px;
+  overflow: hidden;*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-bottom: 70px;
+}
+
+.popup .fio-list button {
+  background: #00649b;
+  color: white;
+  width: 700px;
+  min-height: 80px;
+  border-radius: 10px;
+  outline: none;
+  border-width: 0px;
+  border-color: unset;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  font-size: 28px;
+  overflow: hidden;
+}
+
+
+/*********************/
+.usrbb {
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2px;
+  min-height: 14px;
+
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+.usrbb .icon {
+  width: 16px; height: auto;
+}
+.usrbb .icon img {
+  width: 14px;
+  height: auto;
+}
+main {
+  padding-bottom: 25px;
+}
+
+.main-wrap.error {
+	justify-content: center;
+    align-items: center;
+}
+
+.main-wrap.error h1 {
+	color: #004288;
+}
+
+
+
+
+/****************************/
+.popup.fiscal-popup {
+  z-index: 550;
+}
+
+.fiscal-popup .popup-inner .popup-inner-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 860px;
+}
+
+.fiscal-popup .popup-inner-wrapper .rightButtons,
+.fiscal-popup .popup-inner-wrapper .leftButtons {
+  display:  flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.fiscal-popup .leftButtons button {
+  width: 400px;
+  height: 70px;
+  padding: 10px 20px;
+  outline: none;
+  border: 0;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  background-color: #004a8f;
+  color: white;
+}
+.fiscal-popup .rightButtons button {
+  width: 400px;
+  height: 250px;
+  padding: 10px 20px;
+  outline: none;
+  border: 0;
+  background-color: #A8A8A8;
+  color: white;
+}
+
+
+
+.popup.fiscal-phone-input-popup {
+  z-index: 555;
+}
+.fiscal-phone-input-popup .popup-inner .popup-inner-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  color: black !important;
+  width: 860px;
+}
+
+.fiscal-phone-input-popup .popup-header {
+  margin-bottom: 50px;
+  color: black;
+  width: 90%;
+  text-align: center;
+  font-size: 36px;
+  color: #002f6c;
+
+
+}
+
+.fiscal-phone-input-popup .input-center {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiscal-phone-input-popup .input-center input {
+  width: 360px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+
+  border: 1px solid black;
+  font-family: sans-serif;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap .k-line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap .key {
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap button {
+  color: white;
+  background-color: #009dfe;
+  border: unset;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap .main-keyboard button {
+  background-color: #009dfe;
+  border: unset;
+  margin: 5px;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap .key.key-delete {
+  width: 154px;
+}
+
+.fiscal-phone-input-popup .keyboard-wrap .main-keyboard .key.key-delete {
+  width: 160px;
+}
+
+
+.popup.fiscal-email-input-popup {
+  z-index: 556;
+}
+.fiscal-email-input-popup .popup-inner .popup-inner-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 860px;
+}
+
+.fiscal-email-input-popup .popup-header {
+  margin-bottom: 30px;
+  width: 90%;
+  text-align: center;
+  font-size: 32px;
+  color: #002f6c;
+}
+
+.fiscal-email-input-popup .input-center {
+  margin-bottom: 20px;
+}
+
+.fiscal-email-input-popup .k-line input {
+	border: 2px solid #546b93 ;
+    height: 60px;
+    border: 2px solid #546b93;
+    color: #474a4c;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    font-size: 30px;
+	
+	width: 700px;
+	line-height: 32px;
+	text-align: center;
+
+  border: 1px solid black;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.fiscal-email-input-popup .keyboard-wrap .k-line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiscal-email-input-popup .keyboard-wrap .k-number,
+.fiscal-email-input-popup .keyboard-wrap .k-btn {
+  width: 75px;
+  height: 75px;
+  border: unset;
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.fiscal-email-input-popup .keyboard-wrap button {
+  color: white;
+  background-color: #009dfe;
+}
+
+.fiscal-email-input-popup .keyboard-wrap .k-number {
+  height: 65px;
+}
+
+
+
+.fiscal-email-input-popup .keyboard-wrap .key-delete {
+  width: 140px;
+  border: unset;
+}
+.fiscal-email-input-popup .keyboard-wrap .key-inline {
+  height: 60px;
+}
+
+
+.popup.fiscal-popup .popup-inner,
+.popup.fiscal-phone-input-popup .popup-inner,
+.popup.fiscal-email-input-popup .popup-inner {
+	margin-top: 0;
+}
+
+/*****************/
+
+.scrollable {
+	overflow: auto;
+}
+
+
+.service2.selected {
+	background-color: #E5EFD9;
+}
+
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.cart-item {
+	font-size:20px;
+	font-weight: 500;
+	margin: 5px;
+}

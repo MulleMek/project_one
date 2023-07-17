@@ -1,0 +1,296 @@
+.services-hr {
+    margin: 10px 0;
+}
+
+.catalog-wrap button, .choose-wrap button {
+  width: 317px;
+  height: 262px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 15px;
+  background-color: white;
+  margin: 7px;
+  font-size: 1.4em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.07s ease-in-out;
+  transition: all 0.07s ease-in-out;
+}
+
+.choose-wrap {
+	display:flex;
+	flex-flow: row wrap;
+    justify-content: center;
+}
+
+.choose-wrap button{
+    display:flex;
+	flex-flow: row nowrap;
+	color: white;
+	font-weight: bold;
+	flex-grow: 1;
+	height: 370px;
+	max-width:370px;
+}
+
+.pay-info{
+    font-size: 24px;
+}
+
+.payment-image img{
+    margin: 140px 160px;
+}
+
+.payment-image{
+    float:left;
+    width:60%;
+}
+
+.payment-header p{
+    font-size: 20px;
+}
+
+.payment-header{
+    text-align: center;
+	margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.info{
+    margin-top: 200px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.catalog-wrap button.category, .choose-wrap button {
+  background: rgba(0, 74, 173, 0.85);
+}
+.catalog-wrap button.category p {
+  color: white;
+}
+.catalog-wrap button.category:active, .choose-wrap button:active {
+  background: #4cbff4;
+}
+
+.catalog-wrap button.service {
+  background: rgba(153, 202, 60, 0.85);
+}
+.catalog-wrap button.service p {
+  color: #336400;
+  text-align: left;
+  position: relative;
+}
+.catalog-wrap button.service p .price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.catalog-wrap button.service p .price label {
+  font-weight: bold;
+  margin-left: 7px;
+}
+.catalog-wrap button.service:active {
+  background: #aadb4d;
+}
+
+.catalog-wrap .buttons-wrap-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+		  
+	justify-content: flex-start;
+}
+
+.popup .amount {
+  background: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 5px;
+  width: 750px;
+  height: 550px;
+  position: relative;
+}
+.popup .amount .title {
+  color: #242c2f;
+  font-size: 2em;
+  text-align: center;
+}
+.amount hr{
+    margin: 25px 0;
+}
+
+.popup .amount .title p {
+  color: #004a8f;
+  font-size: .7em;
+}
+.popup .amount .title p span {
+  margin-right: 5px;
+}
+.popup .amount .count {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 55px;
+}
+.popup .amount .count span {
+  margin: 0px 65px;
+  color: #242c2f;
+  font-size: 5em;
+}
+.popup .amount .count .point {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popup .amount .count .point img {
+  max-width: 100%;
+}
+.popup .amount .bottom {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 86%;
+  margin-left: 8%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popup .amount .bottom .point {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popup .amount .bottom .point .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #242c2f;
+  font-size: 2.2em;
+}
+.popup .amount .bottom .point .text p {
+  margin-left: 5px;
+}
+.popup .amount .bottom .point .bottom-buttons button {
+  margin: 0px 2px;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 26px;
+  padding: 15px 25px;
+  -webkit-transition: all 0.07s ease-in-out;
+  transition: all 0.07s ease-in-out;
+}
+.popup .amount .bottom .point .bottom-buttons button.ok {
+  background: #004a8f;
+}
+.popup .amount .bottom .point .bottom-buttons button.ok:active {
+  background: #4cbff4;
+}
+.popup .amount .bottom .point .bottom-buttons button.cancel {
+  background: #A8A8A8;
+}
+.popup .amount .bottom .point .bottom-buttons button.cancel:active {
+  background: #353d40;
+}
+
+.sid {
+	text-align:left;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.service-block{
+	width:100%;
+	height: 100%;
+	padding:30px;
+	content-justify: left !important; 
+	
+}
+
+.sdata {
+	text-align: left;
+}
+
+.stitle {
+	text-align:left;
+	padding-bottom: 30px;
+	font-size:16px;
+}
+
+.sphone {
+	text-align: left;
+	font-size:18px;
+	font-weight: 700;
+}
+
+.sprice {
+	text-align: left;
+	font-size:18px;
+	font-weight: 700;
+}

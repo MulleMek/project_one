@@ -1,0 +1,6 @@
+12:06 17.07.2023 127.0.0.1 Request ---->  https://geometriya-group.bitrix24.ru/rest/66/dwqchi13bk06iag6/user.get.json?WORK_PHONE=81111111111
+12:06 17.07.2023 127.0.0.1 Request data ---->  []
+12:06 17.07.2023 127.0.0.1 Response <----- "{\"result\":[],\"time\":{\"start\":1689584779.962394,\"finish\":1689584780.0791409,\"duration\":0.11674690246582031,\"processing\":0.045739173889160156,\"date_start\":\"2023-07-17T12:06:19+03:00\",\"date_finish\":\"2023-07-17T12:06:20+03:00\",\"operating_reset_at\":1689585380,\"operating\":0.24322390556335449}}"
+12:06 17.07.2023 127.0.0.1 Request ---->  https://geometriya-group.bitrix24.ru/rest/66/dwqchi13bk06iag6/user.get.json?WORK_PHONE=81111111119
+12:06 17.07.2023 127.0.0.1 Request data ---->  []
+12:06 17.07.2023 127.0.0.1 Response <----- "{\"result\":[],\"time\":{\"start\":1689584786.5034101,\"finish\":1689584786.5730939,\"duration\":0.06968379020690918,\"processing\":0.035207033157348633,\"date_start\":\"2023-07-17T12:06:26+03:00\",\"date_finish\":\"2023-07-17T12:06:26+03:00\",\"operating_reset_at\":1689585386,\"operating\":0.24322390556335449}}"

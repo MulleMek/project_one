@@ -1,0 +1,15 @@
+20.04.2023 11:05:47
+
+Debug Data, Operation CASH: 
+{"id":"66","active":true,"name":"Антон","lastName":"Куликов","secondName":"","email":"newsteach@gmail.com","mobilePhone":"+79372825893","workPhone":"89372825893","userType":"employee","services":{"396":{"id":"396","name":"Юннатов 4 Корп \"Г\"  89687691272 для Скоробогатов 02.04.2022","price":21632,"date":"31.03.2022","count":1},"402":{"id":"402","name":"пос.Первомайское дер.Фоминское ул.Московская д.41стр.789031920268 для Володи на 02.04.2022","price":8240,"date":"31.03.2022","count":1},"13412":{"id":"13412","name":"ТЕСТ","price":530,"date":"13.12.2022","count":1},"13476":{"id":"13476","name":"ТЕСТ НЕ УДАЛЯТЬ2","price":123,"date":"15.12.2022","count":1},"13478":{"id":"13478","name":"ТЕСТ НЕ УДАЛЯТЬ2","price":123,"date":"15.12.2022","count":1},"14376":{"id":"14376","name":" Багаутдинов БЕРЗАРИНА 17/1 подъезд 3 этаж 3 кв 143 домофон  #4140  Ольга|;|5886","price":3812,"date":"06.02.2023","count":1},"14390":{"id":"14390","name":"Страница калькулятора","price":1295,"date":"06.02.2023","count":1},"14876":{"id":"14876","name":"Страница калькулятора","price":9064,"date":"01.03.2023","count":1}}}
+ --- 
+----------
+START DONE, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+----------
+EXIT, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+
+20.04.2023 11:10:17

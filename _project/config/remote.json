@@ -1,0 +1,8 @@
+{
+	"operator_encash": {
+		"isOn": false,
+		"devices": false,
+		"class": "test",
+		"method": "encash"
+	}
+}

@@ -1,0 +1,20 @@
+19.04.2023 16:56:15
+
+Debug Data, Operation CASH: 
+{"id":"66","active":true,"name":"Антон","lastName":"Куликов","secondName":"","email":"newsteach@gmail.com","mobilePhone":"+79372825893","workPhone":"89372825893","userType":"employee","services":{"13418":{"id":"13418","name":"Посёлок Гринфилд. Ул центральная д. 267","price":1,"date":"13.12.2022","count":1}}}
+ --- 
+----------
+START DONE, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+Unexpected error
+{} "TicketMaker is not defined" "ReferenceError: TicketMaker is not defined\n    at http://geometria/kiosk/public/js/scripts/PaymentApp.js:188:6\n    at async cancelProceed (http://geometria/kiosk/public/js/cash_view.js:187:18)"
+Operation Data: 
+{"id":7,"type":"no_activity_cancel","price":1,"inserted":5000,"dispensed":0,"datetime":1681912854,"sync":0,"sync_remote":0,"fisc":1,"printed":0,"no_troubles":0,"approved":0,"org_id":false,"user_phone":"","data":{"client_id":"66","goods":{"13418":{"id":"13418","name":"Посёлок Гринфилд. Ул центральная д. 267","price":1,"date":"13.12.2022","count":1}},"add_deposit_error":"ProxyClient.addDeposit is not a function","goods_fisc":{"goods":[{"price":5000,"quantity":1,"name":"Пополнение депозита","tax":6,"itemtype":4,"paymentMode":4}],"operation":"sale","paymentType":0,"sum":5000,"inserted":5000,"cmd":[]},"kassa_disabled":true}}
+ --- 
+----------
+EXIT, DeviceManager data: 
+ MEI {"data":[{"id":1,"value":10,"count":0,"dispensable":false},{"id":2,"value":50,"count":0,"dispensable":false},{"id":3,"value":100,"count":0,"dispensable":false},{"id":4,"value":200,"count":0,"dispensable":false},{"id":5,"value":500,"count":0,"dispensable":false},{"id":6,"value":1000,"count":0,"dispensable":false},{"id":7,"value":2000,"count":0,"dispensable":false},{"id":8,"value":5000,"count":0,"dispensable":false}]}
+----------
+
+19.04.2023 17:01:15

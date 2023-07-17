@@ -1,0 +1,12 @@
+{
+   "language": {
+      "ru_RUS": {
+         "name": "Русский язык"
+      },
+      "en_ENG": {
+         "name": "English"
+      }
+   },
+   "default": "ru_RUS",
+   "type": "lang"
+}
